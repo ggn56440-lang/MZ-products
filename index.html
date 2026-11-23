@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MZ Cosmetics | Pluck-it</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="logo">MZ COSMETICS</div>
+    </nav>
+
+    <!-- HERO SECTION (Using holding-in-hand.jpeg) -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="eyebrow reveal">Professional Grade</p>
+            <h1 class="main-title reveal">Pluck-it.</h1>
+            <p class="subtitle reveal">The World's First Non-Bacterial Cotton Thread.</p>
+            
+            <div class="hero-image-wrapper reveal">
+                <img src="holding-in-hand.jpeg" alt="Pluck-it in hand" class="hero-img">
+            </div>
+            
+            <div class="scroll-indicator reveal">
+                <span>Scroll to Discover</span>
+                <div class="line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LIFESTYLE / MODEL SECTION -->
+    <section class="brand-lifestyle">
+        <img src="model.jpeg" alt="MZ Cosmetics Lifestyle" class="lifestyle-img">
+        <div class="overlay-text reveal">
+            <h2>Uncompromising<br>Quality.</h2>
+            <p>Experience the gentlest threading ritual designed for the modern professional.</p>
+        </div>
+    </section>
+
+    <!-- INTRODUCTION SECTION (Using product.jpeg) -->
+    <section class="intro section-padding">
+        <div class="container split-layout">
+            <div class="text-content reveal">
+                <h2 class="section-title">The Art of<br>Precision.</h2>
+                <p class="body-text">Elevate your beauty ritual. Pluck-it redefines the standard of threading with its advanced fine fibre technology.</p>
+                <div class="divider"></div>
+                <p class="body-text">Highly professional thread, perfect for plucking unwanted hair from eyebrows, upper lips, face, and body with less pain than ordinary threads.</p>
+            </div>
+            <div class="image-content reveal">
+                <img src="product.jpeg" alt="Thread details" class="editorial-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCT HIGHLIGHT SECTION (Using product2.jpeg) -->
+    <section class="showcase-section section-padding">
+        <div class="container text-center">
+            <h2 class="section-title reveal">Designed for Elegance.</h2>
+            <p class="body-text reveal" style="max-width: 600px; margin: 0 auto 3rem;">Sleek packaging meets professional functionality.</p>
+            
+            <div class="showcase-wrapper reveal">
+                <img src="product2.jpeg" alt="Pluck-it Box" class="showcase-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- KEY BENEFITS SECTION (Dark Magenta Background) -->
+    <section class="benefits section-padding">
+        <div class="container">
+            <h2 class="section-title text-center text-white reveal">Engineered for<br>Comfort.</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item reveal">
+                    <span class="number">01</span>
+                    <h3>Less Pain</h3>
+                    <p>Advanced fine fibre glides smoothly, reducing friction and discomfort.</p>
+                </div>
+                <div class="benefit-item reveal">
+                    <span class="number">02</span>
+                    <h3>100% Safe</h3>
+                    <p>World's first non-bacterial cotton thread for ultimate hygiene.</p>
+                </div>
+                <div class="benefit-item reveal">
+                    <span class="number">03</span>
+                    <h3>Power Grip</h3>
+                    <p>High tensile strength ensures precise hair removal every time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW TO USE SECTION (Using holding-in-hand & product) -->
+    <section class="how-to-use section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">The Ritual.</h2>
+            <div class="steps-container">
+                <div class="step reveal">
+                    <div class="step-img-wrapper">
+                        <img src="product.jpeg" alt="Prepare">
+                    </div>
+                    <h3>01. Prepare</h3>
+                    <p>Cleanse the skin and ensure the area is completely dry.</p>
+                </div>
+                <div class="step reveal">
+                    <div class="step-img-wrapper">
+                        <img src="holding-in-hand.jpeg" alt="Unravel">
+                    </div>
+                    <h3>02. Unravel</h3>
+                    <p>Pull the desired length of Pluck-it thread from the spool.</p>
+                </div>
+                <div class="step reveal">
+                    <div class="step-img-wrapper">
+                        <img src="product2.jpeg" alt="Perfect">
+                    </div>
+                    <h3>03. Perfect</h3>
+                    <p>Use your preferred threading technique for precise results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCT DETAILS SECTION -->
+    <section class="product-details section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Product Details.</h2>
+            <div class="details-grid reveal">
+                <div class="detail-row">
+                    <span>Ingredients</span>
+                    <span>100% Cotton Thread</span>
+                </div>
+                <div class="detail-row">
+                    <span>Quantity</span>
+                    <span>20 Meters</span>
+                </div>
+                <div class="detail-row">
+                    <span>Usage</span>
+                    <span>Hygienic • Single Use</span>
+                </div>
+                <div class="detail-row">
+                    <span>Storage</span>
+                    <span>Store in dry, cool place</span>
+                </div>
+                <div class="detail-row">
+                    <span>Batch</span>
+                    <span>MZ-PLK1023</span>
+                </div>
+                <div class="detail-row">
+                    <span>Origin</span>
+                    <span>Made in Pakistan</span>
+                </div>
+                <div class="detail-row">
+                    <span>Help Line</span>
+                    <span>0307-7773212</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container text-center">
+            <h2 class="footer-logo">MZ COSMETICS</h2>
+            <div class="footer-links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Contact</a>
+            </div>
+            <p class="copyright">&copy; 2024 MZ Cosmetics. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
